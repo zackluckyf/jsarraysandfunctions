@@ -49,4 +49,7 @@ describe("Arrays", function () {
     }
     expect(  arr.reduce(myReduce)).toEqual(44);
   });
+  it('should be able to join', function () {
+    expect(  arr.join('')).toEqual('23456789');
+  });
 });
